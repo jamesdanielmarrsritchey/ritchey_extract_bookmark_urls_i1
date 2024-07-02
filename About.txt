@@ -1,0 +1,14 @@
+Name: Ritchey Extract Bookmark URLs
+Implementation: 1
+Version: 1
+Long Identifier: Ritchey Extract Bookmark URLs i1 v1
+Short Identifier: REBUi1v1
+Description: A user-defined PHP function for extracting the URLs of bookmarks in a Mozilla Firefox JSON bookmark export file.
+History:
+ - Project started July 2, 2024.
+ - Version 1 completed July 2, 2024.
+Author: James Daniel Marrs Ritchey
+Licensing: This project is herby licensed under the Ritchey Permissive License v16.
+Notes:
+ - This project was tested against Mozilla Firefox ESR 115.12.0esr on Debian 12, and Mozilla Firefox 127.0.2 (64-bit). During tests, the largest number of bookmarks extracted was 2343.
+ - This project relies on regex to extract URLs. Regex errors could result in URLs being missed, or cropped.
